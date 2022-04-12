@@ -1,0 +1,168 @@
+/*General*/
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    line-height: 1.15;
+}
+
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: white;
+    text-align: left;
+    background-color: #ffffff;
+}
+
+.section-title {
+    -webkit-text-stroke:1px #e9e9e995;
+}
+
+.display-1 {
+    font-size: 160px;
+    font-weight: 100;
+}
+
+.position-absolute {
+    font-weight: 700;
+}
+
+.text-purple {
+    color: #522093;
+}
+
+.background-purple {
+    background-color: #522093;
+}
+
+/*Navbar*/
+
+.more-btn:hover {
+    background-color: #391960;
+}
+
+.navbar-light {
+    display: none;
+}
+
+.nav-link {
+    color: grey;
+    font-weight: 500;
+}
+
+.nav-link:hover {
+    color: #522093;
+}
+
+.nav-link:active {
+    color: #391960;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    padding: 25px 10px;
+    font-weight: 500;
+}
+
+/*Header*/
+.main-header {
+    min-height: 100vh;
+}
+
+.about-img {
+    margin-left: -50px;
+    right: -60px;
+}
+
+@media (max-width: 992px) {
+    .about-img {
+        margin-left: unset;
+        margin-right: unset;
+    }
+}
+
+@media(max-width: 578px) {
+    .main-header {
+        min-height: 50vh;
+    }
+}
+
+.btn {
+    padding: 10px 25px;
+    border-radius: 100px;
+}
+
+.btn-white {
+    background-color: #ffffff;
+    border: 2px solid #ffffff;
+}
+
+.typed-cursor {
+    font-size: 45px;
+    color: #ffffff;
+}
+
+.position-absolute {
+    font-weight: 700;
+}
+
+/*About*/
+
+/*Skills*/
+
+.bar {
+    background-color: #522093;
+    height: 5px;
+}
+
+/*Experience*/
+.ex-me {
+    margin-top: 30px;
+}
+
+/*Portfolio*/
+.service-h4 {
+    padding-bottom: 30px;
+}
+
+.service-icon {
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 60px;
+}
+
+.service-box {
+    box-shadow: 0px 1px 7px rgba(0,0,0,0.1);
+    margin-left: 20px;
+    padding: 20px;
+    padding-left: 20px;
+    padding-right: 30px;
+}
+
+.service-box:hover {
+    box-shadow: 0px 1px 13px rgba(27, 27, 27, 0.265);
+}
+
+.portfolio-element {
+    width: 50%;
+    box-shadow: 0px 1px 7px rgba(0, 0, 0, 0.484);
+}
+
+@media(max-width: 578px) {
+    .portfolio-element {
+        width: 100%;
+    }
+}
+
+.gallery-item{
+    margin-bottom: 30px;
+    border-radius: 5px;
+    cursor: pointer;
+}
