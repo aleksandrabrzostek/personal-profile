@@ -21,10 +21,6 @@
             loop: false
         });
     }
-    
-    //volume
-    
-    document.getElementByTagName("video").volume = 0.5;
 
     //portfolio
 
